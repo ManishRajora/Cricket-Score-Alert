@@ -1,0 +1,28 @@
+#header{
+    margin-top: 5px;
+}
+
+/* .container-fluid{
+    border: 2px solid black;
+}
+
+.col-3, .col-9{
+    border: 2px solid red;
+} */
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+span{
+    font-size: larger;
+    font-family: fantasy;
+    margin: auto;
+}
