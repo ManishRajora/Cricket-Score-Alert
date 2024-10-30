@@ -2,14 +2,6 @@
     margin-top: 5px;
 }
 
-/* .container-fluid{
-    border: 2px solid black;
-}
-
-.col-3, .col-9{
-    border: 2px solid red;
-} */
-
 .nav-link:hover{
     text-decoration: underline;
 }
@@ -25,4 +17,34 @@ span{
     font-size: larger;
     font-family: fantasy;
     margin: auto;
+}
+
+.main{
+    display: none;
+    margin-top: 150px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+}
+
+.main_heading{
+    font-family: monospace;
+}
+
+.login_form{
+    border: 1px solid;
+    box-shadow: 5px 5px 10px 5px;
+    display: block;
+    margin-top: 100px;
+    width: 500px;
+}
+
+.form{
+    margin: 20px;
+}
+
+.submit{
+    background-color: aqua;
+    box-shadow: 2px 1px 1px 2px;
+    border-radius: 10px;
 }
