@@ -20,7 +20,7 @@ span{
 }
 
 .main{
-    display: none;
+    display: block;
     margin-top: 150px;
     margin-left: 80px;
     margin-right: 80px;
@@ -32,9 +32,9 @@ span{
 }
 
 .login_form{
+    display: none;
     border: 1px solid;
     box-shadow: 5px 5px 10px 5px;
-    display: block;
     margin-top: 100px;
     width: 500px;
 }
