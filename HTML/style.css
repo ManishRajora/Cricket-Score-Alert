@@ -48,3 +48,246 @@ span{
     box-shadow: 2px 1px 1px 2px;
     border-radius: 10px;
 }
+
+/* Added CSS for background bubble */
+.background-bubble {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  
+  .bubble1 {
+    background-color: rgba(0, 0, 255, 0.2);
+    animation: bubble1-animation 5s ease-in-out infinite;
+    left: 90%;
+    top: 50%;
+  }
+  
+  .bubble2 {
+    background-color: rgba(255, 0, 0, 0.2);
+    animation: bubble2-animation 6s ease-in-out infinite;
+    right: 76%;
+    bottom: 63%;
+  }
+  
+  .bubble3 {
+    background-color: rgba(0, 255, 0, 0.2);
+    animation: bubble3-animation 7s ease-in-out infinite;
+    left: 89%;
+    top: 73%;
+  }
+
+  .bubble4 {
+    background-color: rgba(0, 0, 255, 0.2);
+    animation: bubble1-animation 5s ease-in-out infinite;
+    left: 51%;
+    top: 64%;
+  }
+  
+  .bubble5 {
+    background-color: rgba(255, 0, 0, 0.2);
+    animation: bubble2-animation 6s ease-in-out infinite;
+    right: 29%;
+    bottom: 34%;
+  }
+  
+  .bubble6 {
+    background-color: rgba(0, 255, 0, 0.2);
+    animation: bubble3-animation 7s ease-in-out infinite;
+    left: 66%;
+    top: 80%;
+  }
+
+  .bubble7 {
+    background-color: rgba(0, 0, 255, 0.2);
+    animation: bubble1-animation 5s ease-in-out infinite;
+    left: 43%;
+    top: 53%;
+  }
+  
+  .bubble8 {
+    background-color: rgba(255, 0, 0, 0.2);
+    animation: bubble2-animation 6s ease-in-out infinite;
+    right: 29%;
+    bottom: 75%;
+  }
+  
+  .bubble9 {
+    background-color: rgba(0, 255, 0, 0.2);
+    animation: bubble3-animation 7s ease-in-out infinite;
+    left: 65%;
+    top: 30%;
+  }
+
+  .bubble10 {
+    background-color: rgba(0, 0, 255, 0.2);
+    animation: bubble1-animation 5s ease-in-out infinite;
+    left: 20%;
+    top: 83%;
+  }
+  
+  .bubble11 {
+    background-color: rgba(255, 0, 0, 0.2);
+    animation: bubble2-animation 6s ease-in-out infinite;
+    right: 91%;
+    bottom: 49%;
+  }
+  
+  .bubble12 {
+    background-color: rgba(0, 255, 0, 0.2);
+    animation: bubble3-animation 7s ease-in-out infinite;
+    left: 38%;
+    top: 46%;
+  }
+
+  .bubble13 {
+    background-color: rgba(0, 0, 255, 0.2);
+    animation: bubble1-animation 5s ease-in-out infinite;
+    left: 92%;
+    top: 20%;
+  }
+  
+  .bubble14 {
+    background-color: rgba(255, 0, 0, 0.2);
+    animation: bubble2-animation 6s ease-in-out infinite;
+    right: 65%;
+    bottom: 43%;
+  }
+  
+  .bubble15 {
+    background-color: rgba(0, 255, 0, 0.2);
+    animation: bubble3-animation 7s ease-in-out infinite;
+    left: 72%;
+    top: 46%;
+  }
+  
+  @keyframes bubble1-animation {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-50px); }
+    100% { transform: translateY(0); }
+  }
+  
+  @keyframes bubble2-animation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.5); }
+    100% { transform: scale(1); }
+  }
+  
+  @keyframes bubble3-animation {
+    0% { transform: scale(1); }
+    50% { transform: scale(2.5); }
+    100% { transform: scale(1); }
+  }
+
+  @keyframes bubble4-animation {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-50px); }
+    100% { transform: translateY(0); }
+  }
+  
+  @keyframes bubble5-animation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.5); }
+    100% { transform: scale(1); }
+  }
+  
+  @keyframes bubble6-animation {
+    0% { transform: scale(1); }
+    50% { transform: scale(2.5); }
+    100% { transform: scale(1); }
+  }
+
+  @keyframes bubble7-animation {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-50px); }
+    100% { transform: translateY(0); }
+  }
+  
+  @keyframes bubble8-animation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.5); }
+    100% { transform: scale(1); }
+  }
+  
+  @keyframes bubble9-animation {
+    0% { transform: scale(1); }
+    50% { transform: scale(2.5); }
+    100% { transform: scale(1); }
+  }
+
+  @keyframes bubble10-animation {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-50px); }
+    100% { transform: translateY(0); }
+  }
+  
+  @keyframes bubble11-animation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.5); }
+    100% { transform: scale(1); }
+  }
+  
+  @keyframes bubble12-animation {
+    0% { transform: scale(1); }
+    50% { transform: scale(2.5); }
+    100% { transform: scale(1); }
+  }
+
+  @keyframes bubble13-animation {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-50px); }
+    100% { transform: translateY(0); }
+  }
+  
+  @keyframes bubble14-animation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.5); }
+    100% { transform: scale(1); }
+  }
+  
+  @keyframes bubble15-animation {
+    0% { transform: scale(1); }
+    50% { transform: scale(2.5); }
+    100% { transform: scale(1); }
+  }
+
+  .main_heading {
+    font-family: monospace;
+    animation: heading-animation 3s ease-in-out infinite alternate;
+  }
+  
+  .main2 {
+    animation: main2-animation 3s ease-in-out infinite;
+  }
+  
+  @keyframes heading-animation {
+    0% {
+      transform: scale(1);
+      color: blue;
+    }
+    50% {
+      transform: scale(1.1);
+      color: red;
+    }
+    100% {
+      transform: scale(1);
+      color: blue;
+    }
+  }
+  
+  @keyframes main2-animation {
+    0% {
+      opacity: 1;
+      transform: translateY(-20px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100%{
+        opacity:1;
+        transform: translateY(-20px);
+    }
+  }
