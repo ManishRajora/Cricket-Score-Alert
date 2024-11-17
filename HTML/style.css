@@ -39,11 +39,29 @@ span{
     width: 500px;
 }
 
-.form{
+.register_form{
+  display: none;
+  border: 1px solid;
+  box-shadow: 5px 5px 10px 5px;
+  margin-top: 80px;
+  width: 500px;
+}
+
+.form1{
     margin: 20px;
 }
 
+.form2{
+  margin: 20px;
+}
+
 .submit{
+    background-color: aqua;
+    box-shadow: 2px 1px 1px 2px;
+    border-radius: 10px;
+}
+
+.register{
     background-color: aqua;
     box-shadow: 2px 1px 1px 2px;
     border-radius: 10px;

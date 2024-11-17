@@ -50,25 +50,50 @@
         <h1 class="main_heading">Unleash the newest method to enjoy Cricket through message</h1>
         <br>
         <div class="main2">
-            click <a href="#">Register</a> if you are new
+            click <a href="#" class="register_btn2">Register</a> if you are new
         </div>
     </div>
 
     <center>
-    <div class="login_form">
-        <center><b>Login to your account</b></center>
-        <form class="form">
-            <label for="phone">Phone no. </label>
-            <input type="text" id="phone" name="phone" required>
-            <br><br>
+        <div class="login_form">
+            <center><b>Login to your account</b></center>
+            <form class="form1">
+                <label for="phone">Phone no. </label>
+                <input type="text" id="phone" name="phone" required>
+                <br><br>
+    
+                <label for="pass">Password: </label>
+                <input type="password" id="pass" required>
+                <br><br>
+    
+                <input type="submit" value="Login" class="submit">
+            </form>
+        </div>
+    </center>
 
-            <label for="pass">Password: </label>
-            <input type="password" id="pass" required>
-            <br><br>
+    <center>
+        <div class="register_form">
+            <center><b>Register Yourself</b></center>
+            <form class="form2">
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+                
+                <label for="phone_regis">Phone num: </label>
+                <input type="text" id="phone_regis" name="phone_regis" required>
+                <br><br>
 
-            <input type="submit" value="Login" class="submit">
-        </form>
-    </div>
+                <label for="pass_create">Create Password: </label>
+                <input type="password" id="pass_create" name="pass_create" required>
+                <br><br>
+
+                <label for="pass_confirm">Confirm Password: </label>
+                <input type="password" id="pass_confirm" name="pass_confirm" required>
+                <br><br>
+
+                <input type="submit" value="Register" class="register">
+            </form>
+        </div>
     </center>
 </body>
 <script src="script.js"></script>
